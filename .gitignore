@@ -1,0 +1,9 @@
+*.swp
+*.log
+*.log.*
+*.log-*
+/mirakurun/data/*
+/epgstation/data/streamfiles/*.ts
+/epgstation/data/streamfiles/*.m3u8
+/epgstation/data/*.json
+!.gitkeep

@@ -1,0 +1,8 @@
+- name: PX-S1UD
+  types:
+    - GR
+  dvbDevicePath: /dev/dvb/adapter0/dvr0
+  decoder: arib-b25-stream-test
+  command: >-
+    dvbv5-zap -a 0 -c /app/dvbconf-for-isdb/conf/dvbv5_channels_isdbt.conf
+    -r -P <channel>
