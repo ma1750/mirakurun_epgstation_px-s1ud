@@ -64,6 +64,13 @@ services:
 #         user: "1000:1000"
 #         devices:
 #             - /dev/dri:/dev/dri
+        devices:
+            # RPi OpenMax
+            - /dev/vchiq
+            # RPi V4L2
+            - /dev/video10
+            - /dev/video11
+            - /dev/video12
         restart: unless-stopped
 
 volumes:
